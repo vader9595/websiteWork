@@ -1,0 +1,311 @@
+h1 {
+/*  width: 10%;          */   /*  this is how you center stuff with width parameters  */
+/*  margin: 0 auto 0 auto;   */
+  /* ^^^ OR margin: 0 auto; */
+  color:#66BFBF;
+  font-size: 90px;
+  margin-top: 50px;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  bottom-padding: 100px;
+}
+
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+p{
+  line-height: 2;
+}
+
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+
+    color: #EAF6F6;
+
+}
+    .intro{
+      width: 30%;
+      margin: auto;
+    }
+.top-container {
+  background-color: #B7D3DF;
+  position: relative;
+  padding-top:100px;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.skill-row2{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.middle-container {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+
+}
+
+
+.bottom-container {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+
+
+}
+
+
+.middle-container2 {
+margin: 100px 0;
+
+}
+
+
+.bottom-container2 {
+background-color: #66BFBF;
+padding: 50px 0 20px;
+
+}
+
+
+
+body {
+  color: #40514E;
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /*font-family: serif; */
+  /*font-family: monospace;
+  font-family: sans-serif;
+*/
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+
+/*p {
+  background-color: red;
+  width: 100px;
+  display: inline-block;
+  }
+*/
+.second-p {
+  # display:none;
+  visibility: hidden;
+}
+
+
+
+   span {
+     background-color: blue;
+     width: 100px;
+   }
+
+  .comp{
+    width: 25%;
+    float:left;
+    margin-right: 30px;
+
+  }
+
+.code-skill-description{
+  clear: left;
+}
+
+
+    .food{
+      width: 25%;
+      float: right;
+      margin-left: 30px;
+
+    }
+
+.blue{
+  height:100px;
+  width:100px;
+  background-color: blue;
+  position:relative;
+  left:50px;
+  display: inline-block;
+}
+
+
+.yellow{
+  height:100px;
+  width:100px;
+  background-color: yellow;
+  position:relative;
+  display: inline-block;
+}
+
+.red{
+  height:100px;
+  width:100px;
+  background-color: red;
+  position:relative;        #static is the default
+  left:600px;
+  display: inline-block;
+
+}
+
+
+
+
+
+.red2{
+  height:100px;
+  width:100px;
+  background-color: red;
+  position: absolute;
+  left:200px;
+  top:200px;
+}
+
+.blue2{
+  height:100px;
+  width:100px;
+  background-color: blue;
+  position: absolute;
+  top:100px;
+  left:100px;
+
+}
+
+
+.yellow2{
+  height:100px;
+  width:100px;
+  background-color: yellow;
+  position: absolute;
+
+}
+
+
+.green{
+  height:50px;
+  width:50px;
+  background-color: green;
+  position: fixed;           /* this stays where it is on the screen when you scroll */
+
+}
+
+
+.myContainer{
+  height:300px;
+  width:300px;
+  background-color: grey;
+  position: relative;
+}
+
+.red3{
+  height:100px;
+  width:100px;
+  background-color: red;
+  position: absolute;
+  right:20px;               /* the code is different on these "3's" is bc these are relative to the grey div "myContainer that these are in "*/
+
+}
+
+.blue3{
+  height:100px;
+  width:100px;
+  background-color: blue;
+  position: absolute;
+  top:0;
+  left:100px;
+
+}
+
+
+.yellow3{
+  height:100px;
+  width:100px;
+  background-color: yellow;
+  position: absolute;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom:300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:50px;
+}
+
+.contactMessage{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+.copyright{
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0;
+}
